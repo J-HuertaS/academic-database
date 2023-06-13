@@ -1,0 +1,125 @@
+pro_nombre,creditos_totales,pro_grado_de_licenciatura,sed_id,pro_id,dep_id,DOp,Dob,FOp,FOb,LibreEleccion,TrabajoGrado
+Arquitectura,164,Pregrado,1101,2506,9009,23,49,24,11,51,6
+Artes plásticas,148,Pregrado,1101,2507,9349,21,56,21,14,30,6
+Cine y televisión,169,Pregrado,1101,2508,9002,24,51,25,13,50,6
+Diseño gráfico,152,Pregrado,1101,2509,9349,27,54,26,14,25,6
+Diseño industrial,170,Pregrado,1101,2510,9831,23,41,40,16,44,6
+Música,153,Pregrado,1101,2511,9774,27,58,30,13,19,6
+Música instrumental,142,Pregrado,1101,2512,9774,21,54,37,13,11,6
+Biología,142,Pregrado,1101,2513,9961,22,46,28,12,28,6
+Ciencias de la computación,141,Pregrado,1101,2933,9880,20,47,21,16,31,6
+Estadística,142,Pregrado,1101,2514,9880,29,46,31,10,20,6
+Farmacia,142,Pregrado,1101,2515,9981,26,56,31,11,12,6
+Física,169,Pregrado,1101,2516,9881,30,47,25,11,50,6
+Geología,157,Pregrado,1101,2517,9879,21,42,31,15,42,6
+Matemáticas,151,Pregrado,1101,2518,9880,28,45,39,20,13,6
+Química,143,Pregrado,1101,2519,9881,27,50,35,12,13,6
+Ingeniería agronómica,142,Pregrado,1101,2505,9336,24,60,24,10,18,6
+Administración de empresas,162,Pregrado,1101,2A41,9335,26,44,29,13,44,6
+Administración de empresas,148,Pregrado,1101,2520,9335,24,58,29,18,13,6
+Contaduría pública,158,Pregrado,1101,2521,9335,23,42,26,17,44,6
+Economía,142,Pregrado,1101,2522,9366,29,50,25,13,19,6
+Antropología,158,Pregrado,1101,2523,9556,21,58,30,11,32,6
+Antropología - programa especial de admisión por áreas del conocimiento,165,Pregrado,1101,2529,9220,20,43,35,20,41,6
+Español y filología clásica,153,Pregrado,1101,2526,9220,21,44,22,10,50,6
+Estudios literarios,143,Pregrado,1101,2534,9225,27,49,34,10,17,6
+Filología e idiomas: alemán,169,Pregrado,1101,2524,9022,25,50,34,16,38,6
+Filología e idiomas: francés,142,Pregrado,1101,2525,9222,28,51,20,12,25,6
+Filología e idiomas: inglés,141,Pregrado,1101,2527,9222,20,41,38,12,24,6
+Filosofía,165,Pregrado,1101,2530,9222,23,54,31,12,39,6
+Filosofía,147,Pregrado,1101,2997,9221,27,45,27,11,31,6
+Geografía,159,Pregrado,1101,2531,9221,29,42,26,18,38,6
+Geografía - programa especial de admisión por áreas del conocimiento,148,Pregrado,1101,2757,9223,30,44,20,13,35,6
+Historia,158,Pregrado,1101,2532,9223,25,51,26,12,38,6
+Lingüística,140,Pregrado,1101,2837,9224,30,47,34,20,3,6
+Psicología,146,Pregrado,1101,2535,9225,25,55,39,18,3,6
+Psicología,168,Pregrado,1101,2977,9226,30,45,22,11,54,6
+Sociología,156,Pregrado,1101,2536,9226,29,45,39,12,25,6
+Trabajo social,168,Pregrado,1101,2537,9227,26,43,36,19,38,6
+Ciencia política,153,Pregrado,1101,2538,9551,21,51,31,14,30,6
+Derecho,156,Pregrado,1101,2539,9733,24,47,24,15,40,6
+Enfermería,146,Pregrado,1101,2540,9731,24,42,35,15,24,6
+Ingeniería agrícola,158,Pregrado,1101,2541,9378,22,57,22,10,41,6
+Ingeniería civil,169,Pregrado,1101,2542,9378,21,43,33,15,51,6
+Ingeniería de sistemas,165,Pregrado,1101,2543,9378,27,54,36,15,33,6
+Ingeniería de sistemas y computación,163,Pregrado,1101,2879,9379,28,56,27,20,26,6
+Ingeniería eléctrica,168,Pregrado,1101,2544,9380,29,42,32,16,43,6
+Ingeniería eléctrica,168,Pregrado,1101,2983,9380,20,45,21,16,60,6
+Ingeniería electrónica,144,Pregrado,1101,2545,9380,20,55,34,18,11,6
+Ingeniería industrial,168,Pregrado,1101,2546,9379,40,52,20,22,34,6
+Ingeniería mecánica,152,Pregrado,1101,2547,9381,23,41,26,10,46,6
+Ingeniería mecatrónica,151,Pregrado,1101,2548,9381,21,53,34,15,22,6
+Ingeniería química,148,Pregrado,1101,2549,9382,28,42,25,10,37,6
+Fisioterapia,146,Pregrado,1101,2550,9383,27,55,20,20,18,6
+Fonoaudiología,160,Pregrado,1101,2551,9353,24,60,22,16,32,6
+Medicina,166,Pregrado,1101,2552,9350,29,59,36,16,20,6
+Nutrición y dietética,151,Pregrado,1101,2553,9360,22,45,39,18,21,6
+Terapia ocupacional,157,Pregrado,1101,2554,9383,30,42,37,14,28,6
+Terapia ocupacional,156,Pregrado,1101,2952,9383,30,40,36,15,29,6
+Medicina veterinaria,144,Pregrado,1101,2555,9361,20,40,40,19,19,6
+Zootecnia,168,Pregrado,1101,2556,9870,27,54,22,12,47,6
+Zootecnia,170,Pregrado,1101,2990,9870,30,44,33,15,42,6
+Odontología,154,Pregrado,1101,2557,9547,26,41,23,12,46,6
+Biología,152,Pregrado,9933,L001,9547,28,49,33,12,24,6
+Estadística,147,Pregrado,9933,L002,9001,26,57,24,12,22,6
+Geografía,158,Pregrado,9933,L003,9001,23,58,40,13,18,6
+Gestión cultural y comunicativa,141,Pregrado,9933,L004,9001,29,51,28,12,15,6
+Ingeniería biológica,140,Pregrado,9933,L005,9004,23,41,31,10,29,6
+Ingeniería mecatrónica,148,Pregrado,9933,L006,9005,21,46,28,17,30,6
+Administración de empresas (D),157,Pregrado,1103,4026,9005,23,43,30,11,44,6
+Administración de empresas (N),167,Pregrado,1103,4027,9026,22,46,38,10,45,6
+Administración de sistemas informáticos,153,Pregrado,1103,4029,9026,24,47,34,19,23,6
+Administración de sistemas informáticos,141,Pregrado,1103,4035,9026,22,48,37,20,8,6
+Gestión cultural y comunicativa,146,Pregrado,1103,4033,9026,27,56,24,11,22,6
+Ciencias de la computación,151,Pregrado,1103,4034,9035,30,50,39,11,15,6
+Ingeniería física,146,Pregrado,1103,4030,9034,27,50,22,12,29,6
+Matemáticas,154,Pregrado,1103,4032,9030,28,43,37,10,30,6
+Arquitectura,141,Pregrado,1103,4025,9034,27,59,35,14,0,6
+Construcción,170,Pregrado,1103,4031,9025,26,43,26,12,57,6
+Ingeniería civil,153,Pregrado,1103,4021,9025,24,47,26,13,37,6
+Ingeniería eléctrica,155,Pregrado,1103,4022,9021,30,51,32,13,23,6
+Ingeniería electrónica,163,Pregrado,1103,4028,9029,28,56,28,18,27,6
+Ingeniería industrial,153,Pregrado,1103,4024,9029,28,53,39,13,14,6
+Ingeniería química,165,Pregrado,1103,4023,9024,27,54,21,14,43,6
+Arquitectura,170,Pregrado,1102,3501,9024,29,55,33,15,32,6
+Artes plásticas,168,Pregrado,1102,3502,3291,22,44,34,19,43,6
+Construcción,145,Pregrado,1102,3503,3293,20,57,26,13,23,6
+Ciencias de la computación,143,Pregrado,1102,3647,3295,29,53,20,12,23,6
+Estadística,169,Pregrado,1102,3504,3105,30,44,21,12,56,6
+Ingeniería biológica,147,Pregrado,1102,3505,3305,20,59,27,17,18,6
+Ingeniería física,167,Pregrado,1102,3506,3304,21,49,32,19,40,6
+Matemáticas,145,Pregrado,1102,3507,3103,22,40,25,14,38,6
+Ingeniería agrícola,156,Pregrado,1102,3508,3105,23,42,28,10,47,6
+Ingeniería agronómica,149,Pregrado,1102,3509,3462,21,54,25,13,30,6
+Ingeniería forestal,145,Pregrado,1102,3510,3460,21,57,25,15,21,6
+Zootecnia,157,Pregrado,1102,3511,3461,26,56,36,16,17,6
+Ciencia política,141,Pregrado,1102,3512,3460,27,44,36,11,17,6
+Economía,157,Pregrado,1102,3513,3325,23,40,35,10,43,6
+Historia,155,Pregrado,1102,3514,3189,23,42,22,20,42,6
+Ingeniería administrativa,166,Pregrado,1102,3515,3190,23,54,36,12,35,6
+Ingeniería administrativa,155,Pregrado,1102,3528,3337,28,48,26,20,27,6
+Ingeniería ambiental,155,Pregrado,1102,3527,3337,24,54,30,20,21,6
+Ingeniería ambiental,163,Pregrado,1102,3529,3342,20,60,29,15,33,6
+3516,142,Pregrado,1102,3516,3342,28,53,30,18,7,6
+Ingeniería civil,154,Pregrado,1102,3530,3212,25,51,37,18,17,6
+Ingeniería de control,161,Pregrado,1102,3517,3212,20,51,24,19,41,6
+Ingeniería de control,167,Pregrado,1102,3531,3395,21,43,38,11,48,6
+Ingeniería de minas y metalurgia,152,Pregrado,1102,3518,3395,25,43,39,18,21,6
+Ingeniería de minas y metalurgia,157,Pregrado,1102,3532,3340,26,46,36,14,29,6
+Ingeniería de petróleos,141,Pregrado,1102,3519,3340,23,45,30,17,20,6
+Ingeniería de petróleos,158,Pregrado,1102,3533,3399,30,48,39,11,24,6
+Ingeniería de sistemas e informática,149,Pregrado,1102,3520,3399,22,59,21,20,21,6
+Ingeniería de sistemas e informática,150,Pregrado,1102,3534,3400,29,43,30,17,25,6
+Ingeniería eléctrica,142,Pregrado,1102,3521,3400,27,58,31,19,1,6
+Ingeniería eléctrica,159,Pregrado,1102,3535,3395,24,44,31,19,35,6
+Doctorado en arte y arquitectura,149,Doctorado,1101,2579,3395,25,55,26,13,24,6
+Doctorado en biotecnología,142,Doctorado,1101,2606,9009,26,48,28,11,23,6
+Doctorado en ciencias - astronomía,140,Doctorado,1101,2962,9961,21,60,20,10,23,6
+Doctorado en ciencias - biología,154,Doctorado,1101,2608,9881,29,45,35,12,27,6
+Doctorado en ciencias - bioquímica,153,Doctorado,1101,2862,9961,20,40,34,17,36,6
+Especialización en animación,159,Postgrados y másteres,1101,2580,9881,22,52,20,10,49,6
+Especialización en diseño y desarrollo de producto,169,Postgrados y másteres,1101,2583,9880,23,50,20,13,57,6
+Especialización en fotografía,160,Postgrados y másteres,1101,2585,9349,27,46,28,20,33,6
+Especialización en diseño urbano,151,Postgrados y másteres,1102,3541,9831,30,42,33,11,29,6
+Componente de libre elección,140,Pregrado,1101,2CLE,9349,28,60,28,18,0,6
+,,,,,9378,,,,,,

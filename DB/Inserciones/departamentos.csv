@@ -1,0 +1,72 @@
+dep_nombre,dep_id,dep_correo,fac_id
+Escuela de arquitectura y urbanismo,9009,dep_arqurb_bog@unal.edu.co,2049
+Escuela de artes plásticas y visuales,9349,esc_artplavis_bog@unal.edu.co,2049
+Escuela de cine y televisión,9002,esc_cintel_bog@unal.edu.co,2049
+Escuela de diseño industrial,9831,esc_disind_bog@unal.edu.co,2049
+Departamento de música,9774,dep_mus_bog@unal.edu.co,2049
+Departamento de biología,9961,dep_bio_bog@unal.edu.co,2050
+Departamento de matemática y estadística,9880,dep_matest_bog@unal.edu.co,2050
+Departamento de farmacia,9981,dep_far_bog@unal.edu.co,2050
+Departamento de física y química,9881,dep_fisqui_bog@unal.edu.co,2050
+Departamento de geología,9879,dep_geo_bog@unal.edu.co,2050
+Departamento de agronomía,9336,dep_agr_bog@unal.edu.co,2728
+Departamento de administración,9335,dep_adm_bog@unal.edu.co,2051
+Departamento de contaduría pública,9366,dep_conpub_bog@unal.edu.co,2051
+Departamento de economía,9556,dep_eco_bog@unal.edu.co,2051
+Departamento de antropología,9220,dep_ant_bog@unal.edu.co,2052
+Departamento de lingüística,9225,dep_lin_bog@unal.edu.co,2052
+Departamento de literatura,9022,dep_lit_bog@unal.edu.co,2052
+Departamento de lenguas extranjeras,9222,dep_lenext_bog@unal.edu.co,2052
+Departamento de filosofía,9221,dep_fil_bog@unal.edu.co,2052
+Departamento de geografía,9223,dep_geo_bog@unal.edu.co,2052
+Departamento de historia,9224,dep_his_bog@unal.edu.co,2052
+Departamento de psicología,9226,dep_psi_bog@unal.edu.co,2052
+Departamento de sociología,9227,dep_soc_bog@unal.edu.co,2052
+Departamento de trabajo social,9551,dep_trasoc_bog@unal.edu.co,2052
+Departamento de ciencia política,9733,dep_ciepol_bog@unal.edu.co,2053
+Departamento de derecho,9731,dep_der_bog@unal.edu.co,2053
+Departamento de enfermería,9732,dep_enf_bog@unal.edu.co,2054
+Departamento de ingeniería civil y agrícola,9378,dep_ingcivagr_bog@unal.edu.co,2055
+Departamento de ingeniería de sistemas e industrial,9379,dep_ingsisind_bog@unal.edu.co,2055
+Departamento de ingeniería eléctrica y electrónica,9380,dep_ingeleele_bog@unal.edu.co,2055
+Departamento de ingeniería mecánica y mecatrónica,9381,dep_ingmecmec_bog@unal.edu.co,2055
+Departamento de ingeniería química y ambiental,9382,dep_ingquiamb_bog@unal.edu.co,2055
+Departamento del movimiento corporal humano,9383,dep_movcorhum_bog@unal.edu.co,2056
+Departamento de la ocupación humana,9353,dep_ocuhum_bog@unal.edu.co,2056
+Escuela de educación médica,9350,esc_edumed_bog@unal.edu.co,2056
+Departamento de nutrición,9360,dep_nut_bog@unal.edu.co,2056
+Departamento de ciencias para la salud animal,9361,dep_ciesalani_bog@unal.edu.co,2057
+Departamento de producción animal,9870,dep_proani_bog@unal.edu.co,2057
+Departamento de salud oral,9547,dep_salora_bog@unal.edu.co,2058
+Departamento de ciencias naturales,9001,dep_cienat_paz@unal.edu.co,1004
+Departamento de gestión,9004,dep_ges_paz@unal.edu.co,1004
+Departamento de ingeniería,9005,dep_ing_paz@unal.edu.co,1004
+Departamento de administración,9026,dep_adm_man@unal.edu.co,4046
+Departamento de gestión,9035,dep_ges_man@unal.edu.co,4046
+Departamento de matemáticas y computación,9034,dep_matcom_man@unal.edu.co,4037
+Departamento de ingeniería física,9030,dep_ingfis_man@unal.edu.co,4037
+Departamento de arquitectura y construcción,9025,dep_arqcon_man@unal.edu.co,4036
+Departamento de ingeniería civil,9021,dep_ingciv_man@unal.edu.co,4036
+Departamento de ingeniería eléctrica y electrónica,9029,dep_ingeleele_man@unal.edu.co,4036
+Departamento de ingeniería industrial y química,9024,dep_ingindqui_man@unal.edu.co,4036
+Escuela de arquitectura,3291,esc_arq_med@unal.edu.co,3064
+Escuela de artes,3293,esc_art_med@unal.edu.co,3064
+Escuela de construcción,3295,esc_con_med@unal.edu.co,3064
+Escuela de matemáticas,3105,esc_mat_med@unal.edu.co,3065
+Escuela de Estadística,3305,esc_est_med@unal.edu.co,3065
+Escuela de biociencias,3304,esc_bio_med@unal.edu.co,3065
+Escuela de Física,3103,esc_fis_med@unal.edu.co,3065
+Departamento de ingeniería agrícola y alimentos,3462,dep_ingagrali_med@unal.edu.co,3442
+Departamento producción animal,3460,dep_proani_med@unal.edu.co,3442
+Departamento de ciencias forestales,3461,dep_ciefor_med@unal.edu.co,3442
+Departamento de ciencia política,3325,dep_ciepol_med@unal.edu.co,3067
+Departamento de economía,3189,dep_eco_med@unal.edu.co,3067
+Departamento de historia,3190,dep_his_med@unal.edu.co,3067
+Departamento de ingeniería de la organización,3337,dep_ingorg_med@unal.edu.co,3068
+Departamento de geociencias y medio ambiente,3342,dep_geomedamb_med@unal.edu.co,3068
+Departamento de ingeniería civil,3212,dep_ingciv_med@unal.edu.co,3068
+Departamento de energía eléctrica y automática,3395,dep_eneeleaut_med@unal.edu.co,3068
+Departamento de materiales y minerales,3340,dep_matmin_med@unal.edu.co,3068
+Departamento de procesos y energía,3399,dep_proene_med@unal.edu.co,3068
+Departamento de ciencias de la computación y de la decisión,3400,dep_ciecomdec_med@unal.edu.co,3068
+Departamento de Ingeniería Civil y Agrícola,9378,dep_ingcivagr_med@unal.edu.co,3064
