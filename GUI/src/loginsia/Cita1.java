@@ -11,6 +11,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import javax.swing.JOptionPane;
 import javax.swing.JTable;
 import javax.swing.plaf.basic.BasicInternalFrameUI;
@@ -212,14 +214,18 @@ public class Cita1 extends javax.swing.JInternalFrame {
     private void InscrMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_InscrMouseClicked
         if (evt.getClickCount() == 2){
             String asignatura = String.valueOf(Inscr.getValueAt(Inscr.getSelectedRow(), 0));
-            int indiceEspacio = asignatura.lastIndexOf(" ");
-            String ultimosCaracteres = asignatura.substring(indiceEspacio + 1);
+            Pattern pattern = Pattern.compile("\\((.*?)\\)");
+            Matcher matcher = pattern.matcher(asignatura);
+            if (matcher.find()) {
+                asignatura = matcher.group(1);
+            } 
+            System.out.println(asignatura);
             if("0".equals(String.valueOf(Inscr.getValueAt(Inscr.getSelectedRow(), 3)))){
                 JOptionPane.showMessageDialog(null,"La asignatura no está siendo ofertada este semestre.");
             } else if ("0".equals(String.valueOf(Inscr.getValueAt(Inscr.getSelectedRow(), 4)))) {
                 JOptionPane.showMessageDialog(null,"La asignatura no cuenta con cupos disponibles, puedes enviar un correo a la facultad que oferta la asignatura y solicitar un sobrecupo.");
             }  else {
-                GruposAsig asig = new GruposAsig(this.usuario, this.contrasena, ultimosCaracteres, programa);
+                GruposAsig asig = new GruposAsig(this.usuario, this.contrasena, asignatura, programa);
                 Ventana.removeAll();
                 Ventana.updateUI();
                 asig.titleLabel.setText("Inscripción/cancelación libre elección");

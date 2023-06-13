@@ -71,7 +71,9 @@ public class GruposAsig extends javax.swing.JInternalFrame {
 
             // Establecer los parámetros de entrada del procedimiento  
             callableStatement.setString(1, this.usuario);
+
             callableStatement.setString(2, this.programa);
+            
             callableStatement.setString(3, this.asi_codigo);
 
             // Ejecutar el procedimiento almacenado
@@ -159,6 +161,11 @@ public class GruposAsig extends javax.swing.JInternalFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
+        asignaturas.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                asignaturasMouseClicked(evt);
+            }
+        });
         jScrollPane2.setViewportView(asignaturas);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -258,6 +265,10 @@ public class GruposAsig extends javax.swing.JInternalFrame {
             JOptionPane.showMessageDialog(null,ex);
         }
     }//GEN-LAST:event_jButton1MouseClicked
+
+    private void asignaturasMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_asignaturasMouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_asignaturasMouseClicked
 
     private void volver(){
         if (titleLabel.getText().equals("Inscripción/cancelación")){

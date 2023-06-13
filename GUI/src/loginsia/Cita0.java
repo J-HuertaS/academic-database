@@ -265,7 +265,16 @@ public class Cita0 extends javax.swing.JInternalFrame {
             String asignatura = String.valueOf(Inscr.getValueAt(Inscr.getSelectedRow(), 0));
             Pattern pattern = Pattern.compile("\\((.*?)\\)");
             Matcher matcher = pattern.matcher(asignatura);
-            System.out.println(asignatura);
+            int creditos = 0;
+                for (int i = 0; i<Inscr.getRowCount(); i++){
+                    if (isSelected(i,5,Inscr)){
+                        creditos += Integer.parseInt(String.valueOf(Inscr.getValueAt(i, 1)));
+                    }  
+                }
+                if (isSelected(Inscr.getSelectedRow(),5,Inscr)){
+                        creditos += Integer.parseInt(String.valueOf(Inscr.getValueAt(Inscr.getSelectedRow(), 1)));
+                    }  
+                
             if (matcher.find()) {
                 asignatura = matcher.group(1);
             } 
@@ -273,6 +282,8 @@ public class Cita0 extends javax.swing.JInternalFrame {
                 JOptionPane.showMessageDialog(null,"La asignatura no está siendo ofertada este semestre.");
             } else if (0 == Integer.parseInt(String.valueOf(Inscr.getValueAt(Inscr.getSelectedRow(), 4)))) {
                 JOptionPane.showMessageDialog(null,"Debe solicitar el sobrecupo ya que la asignatura no cuenta con cupos disponibles.");
+            } else if (creditos > 25 && !isSelected(Inscr.getSelectedRow(), 5,Inscr)) {
+                JOptionPane.showMessageDialog(null,"No puede inscribir más asignaturas por carga máxima.");
             }else {
                 GruposAsig asig = new GruposAsig(this.usuario,this.contrasena,asignatura,programa);
                 Ventana.removeAll();
@@ -303,11 +314,22 @@ public class Cita0 extends javax.swing.JInternalFrame {
     }//GEN-LAST:event_libre_eleccionMouseClicked
 
     private void finMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_finMouseClicked
-        ResumenInscripcion insc = new ResumenInscripcion(this.usuario,this.contrasena,this.programa);
-        Ventana.removeAll();
-        Ventana.updateUI();
-        Ventana.add(insc);
-        insc.setVisible(true);
+        int creditos = 0;
+                for (int i = 0; i<Inscr.getRowCount(); i++){
+                    if (isSelected(i, 5,Inscr)){
+                    creditos += Integer.parseInt(String.valueOf(Inscr.getValueAt(i, 1)));
+                    }
+                }
+        if (creditos < 10) {
+                JOptionPane.showMessageDialog(null,"No cumple con la carga mínima solicitada en el periodo.");
+        } else {
+            ResumenInscripcion insc = new ResumenInscripcion(this.usuario,this.contrasena,this.programa);
+            Ventana.removeAll();
+            Ventana.updateUI();
+            Ventana.add(insc);
+            insc.setVisible(true); 
+                }
+        
     }//GEN-LAST:event_finMouseClicked
 
     private void finActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_finActionPerformed

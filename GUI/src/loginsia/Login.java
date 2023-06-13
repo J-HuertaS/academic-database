@@ -9,6 +9,9 @@ import javax.swing.JOptionPane;
 import java.sql.*;
 import com.academico.login.conexion.SQLConnection;
 import java.awt.HeadlessException;
+import java.awt.Image;
+import java.awt.Toolkit;
+import javax.swing.ImageIcon;
 
 /**
  *
@@ -27,6 +30,7 @@ public class Login extends javax.swing.JFrame {
 public Login() {
         initComponents();
         this.setLocationRelativeTo(null);
+        
     }
 
     /**
